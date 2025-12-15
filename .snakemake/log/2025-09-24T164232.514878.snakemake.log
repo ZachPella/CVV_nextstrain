@@ -1,0 +1,42 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 4
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	1	align
+	1	all
+	1	ancestral
+	1	export
+	1	refine
+	1	traits
+	1	translate
+	1	tree
+	8
+
+[Wed Sep 24 16:42:32 2025]
+Job 7: 
+        Aligning sequences to config/reference.fasta
+          - filling gaps with N
+        
+
+[Wed Sep 24 16:42:34 2025]
+Finished job 7.
+1 of 8 steps (12%) done
+
+[Wed Sep 24 16:42:34 2025]
+Job 6: Building tree
+
+[Wed Sep 24 16:42:35 2025]
+Error in rule tree:
+    jobid: 6
+    output: results/tree_raw.nwk
+    shell:
+        
+        augur tree             --alignment results/aligned.fasta             --output results/tree_raw.nwk
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: /home/fauverlab/nextstrain/Heartland_build_ZP_September2025/.snakemake/log/2025-09-24T164232.514878.snakemake.log

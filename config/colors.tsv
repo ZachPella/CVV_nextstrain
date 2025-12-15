@@ -1,9 +1,15 @@
 country	USA	#1f77b4
-country	CHN	#ff7f0e
-state	USA/Missouri	#1f77b4
-state	USA/Georgia	#ff7f0e
-state	USA/New York	#2ca02c
-state	USA/Tennessee	#d62728
-state	USA/Kentucky	#9467bd
-state	USA/Kansas	#8c564b
-state   USA/Nebraska	#17becf
+country	Canada	#ff7f0e
+country	United Kingdom	#2ca02c
+country	Mexico	#bcbd22
+state	USA/Illinois	#1f77b4
+state	USA/Virginia	#ff7f0e
+state	USA/North-Dakota	#2ca02c
+state	USA/Missouri	#d62728
+state	USA/Utah	#9467bd
+state	USA/New York	#8c564b
+state	USA/Nebraska	#17becf
+state	Canada/Saskatoon	#e377c2
+state	United Kingdom	#f7b6d3
+state	Mexico	#bcbd22
+state	Mexico/Tlacotalpan	#7f7f7f

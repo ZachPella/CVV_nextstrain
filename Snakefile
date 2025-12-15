@@ -1,11 +1,11 @@
 rule all:
     input:
-        auspice_json = "auspice/heartland.json",
+        auspice_json = "auspice/cache_valley.json",
 
 input_fasta = "data/sequences.fasta",
 input_metadata = "data/metadata.tsv",
 reference = "config/reference.fasta",
-reference_genbank = "config/heartland_segments.gb",
+reference_genbank = "config/cache_valley_L_segment.gb",
 colors = "config/colors.tsv",
 lat_longs = "config/lat_longs.tsv",
 auspice_config = "config/auspice_config.json"
@@ -40,9 +40,9 @@ rule filter:
     output:
         sequences = "results/filtered.fasta"
     params:
-        group_by = "state year",
-        sequences_per_group = 20,
-        min_date = 2009
+        group_by = "country year",  # Changed from "state year" to preserve geographic diversity
+        sequences_per_group = 10,  # Increased to ensure we keep all sequences
+        min_date = 1950  # Earlier date to include all sequences
     shell:
         """
         augur filter \
@@ -107,7 +107,7 @@ rule refine:
         coalescent = "opt",
         date_inference = "marginal",
         clock_filter_iqd = 4,
-	root = "JX005847.1"
+        root = "NC_043618.1"  # Updated for CVV - oldest sequence in your dataset
     shell:
         """
         augur refine \

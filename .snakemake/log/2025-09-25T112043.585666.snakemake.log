@@ -1,0 +1,2 @@
+SyntaxErrorin line 88 of /lustre/work/fauverlab/zachpella/xxx/Heartland_build_ZP_September2025/Snakefile:
+No rule keywords allowed after run/shell/script/notebook/wrapper/template_engine/cwl in rule tree. (Snakefile, line 88)

@@ -1,0 +1,89 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 8
+Rules claiming more threads will be scaled down.
+Job stats:
+job          count    min threads    max threads
+---------  -------  -------------  -------------
+align            1              1              1
+all              1              1              1
+ancestral        1              1              1
+export           1              1              1
+refine           1              1              1
+traits           1              1              1
+translate        1              1              1
+tree             1              8              8
+total            8              1              8
+
+Select jobs to execute...
+
+[Thu Dec 11 11:25:33 2025]
+Job 4: 
+        Aligning sequences to config/reference.fasta
+          - filling gaps with N
+        
+Reason: Missing output files: results/aligned.fasta
+
+[Thu Dec 11 11:25:34 2025]
+Finished job 4.
+1 of 8 steps (12%) done
+Select jobs to execute...
+
+[Thu Dec 11 11:25:34 2025]
+Job 3: Building tree
+Reason: Missing output files: results/tree_raw.nwk; Input files updated by another job: results/aligned.fasta
+
+[Thu Dec 11 11:25:35 2025]
+Finished job 3.
+2 of 8 steps (25%) done
+Select jobs to execute...
+
+[Thu Dec 11 11:25:35 2025]
+Job 2: 
+        Refining tree
+          - estimate timetree
+          - use opt coalescent timescale
+          - estimate marginal node dates
+          - filter tips more than 4 IQDs from clock expectation
+        
+Reason: Missing output files: results/branch_lengths.json, results/tree.nwk; Input files updated by another job: results/tree_raw.nwk, results/aligned.fasta
+
+[Thu Dec 11 11:25:40 2025]
+Finished job 2.
+3 of 8 steps (38%) done
+Select jobs to execute...
+
+[Thu Dec 11 11:25:40 2025]
+Job 7: Inferring ancestral traits for state country
+Reason: Missing output files: results/traits.json; Input files updated by another job: results/tree.nwk
+
+
+[Thu Dec 11 11:25:40 2025]
+Job 8: Reconstructing ancestral sequences and mutations
+Reason: Missing output files: results/nt_muts.json; Input files updated by another job: results/aligned.fasta, results/tree.nwk
+
+[Thu Dec 11 11:25:41 2025]
+Finished job 7.
+4 of 8 steps (50%) done
+[Thu Dec 11 11:25:41 2025]
+Finished job 8.
+5 of 8 steps (62%) done
+Select jobs to execute...
+
+[Thu Dec 11 11:25:41 2025]
+Job 9: Translating amino acid sequences
+Reason: Missing output files: results/aa_muts.json; Input files updated by another job: results/nt_muts.json, results/tree.nwk; Set of input files has changed since last execution
+
+[Thu Dec 11 11:25:42 2025]
+Error in rule translate:
+    jobid: 9
+    output: results/aa_muts.json
+    shell:
+        
+        augur translate --tree results/tree.nwk --ancestral-sequences results/nt_muts.json --reference-sequence config/cache_valley_segments.gb --output-node-data results/aa_muts.json
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: .snakemake/log/2025-12-11T112532.978913.snakemake.log

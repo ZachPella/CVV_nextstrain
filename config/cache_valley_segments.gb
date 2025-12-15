@@ -1,0 +1,427 @@
+LOCUS       NC_043618               6870 bp    RNA     linear   VRL 22-AUG-2019
+DEFINITION  Cache Valley virus strain 6V633 segment L, complete sequence.
+ACCESSION   NC_043618
+VERSION     NC_043618.1
+DBLINK      BioProject: PRJNA485481
+KEYWORDS    RefSeq.
+SOURCE      Cache Valley virus
+  ORGANISM  Cache Valley virus
+            Viruses; Riboviria; Orthornavirae; Negarnaviricota;
+            Polyploviricotina; Ellioviricetes; Bunyavirales; Peribunyaviridae;
+            Orthobunyavirus; Orthobunyavirus cacheense.
+REFERENCE   1  (bases 1 to 6870)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (22-AUG-2019) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to KX100135.
+            GenBank Accession Numbers KX100133-KX100135 represent sequences
+            from the 3 segments of Cache Valley virus strain 6V633.
+            
+            ##Assembly-Data-START##
+            Assembly Method       :: GS De Novo Assembler v. 2.6
+            Sequencing Technology :: 454; Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..6870
+                     /organism="Cache Valley virus"
+                     /mol_type="genomic RNA"
+                     /strain="6V633"
+                     /host="Culiseta inornata"
+                     /db_xref="taxon:80935"
+                     /segment="L"
+                     /country="USA"
+                     /collection_date="1956"
+     gene            49..6765
+                     /locus_tag="FLB09_sLgp1"
+                     /db_xref="GeneID:41324355"
+     CDS             49..6765
+                     /locus_tag="FLB09_sLgp1"
+                     /codon_start=1
+                     /product="polymerase"
+                     /protein_id="YP_009666950.1"
+                     /db_xref="GeneID:41324355"
+                     /translation="MEDQMYDQFLKRIQSAKTATVAKDISTDILEARHDYFGRELCAS
+                     IGIEFRNNVLLDEIILDVAPGINLMNFNIPNVTPDNYIWDDDFLIIMDYKVSVGNDST
+                     EITYKKYTTLILPVMEQIGIPTEIAIIRANPVTYQISIIGENFKAKYPNIPIQLDFSK
+                     FFELRKLLLDKFADDEEFLLMIAHGDFTLTAPWCMDDTPELYDHPIYKEFIGSMPPRF
+                     VNLFDEAISFSAYSAERWNSLLYTAKAKTEQDYQEFLSEKSHAIFNMNGEYMKPTQSE
+                     IDKGWELMSRRISEERDIITDINKQKPSIHFIWAKNANRKLSSATAKLIFLSNSLQSI
+                     IEPSTWTDSLKAIGKSMDIDGNVGAYENLCMERKLIARSTGKKIDNKRLEAIKIGNAL
+                     VLWEQQFILANDLFKGQERQKFFKNFLGIGKHKNFKDKTTTDLELDKPKILDFNNTIV
+                     LMAARSMINKNKTFLAQTNTLENLHPIMGVFSDQIKEASEDTFNTLKKINKTCFWQCI
+                     TDISMLMRNILSVSQYNRHNTFRVAMCANDSMYALVFPSSDIKTKRATVVFSVVCIHQ
+                     EKQSIMDAGALFTTLELKTKNFISISKAIRLDKERCQRIVSSPGLFLLSALLLYNNNP
+                     NISLVDVLNFAFYTSLSITKSMLSLTEPSRYMIMNSLAISSHVKDYISEKFSPYTKTL
+                     FSVYMVNLIKRGCSSANEQSSKIQLRNIYLSDYEITQKGVNDERNLESIWFPGRVNLK
+                     EYINQIYLPFYFNAKGLHEKHHVMIDLAKTVLEIEMTQRMDDLGIWSKHGKKQHVNLP
+                     ILIHSLAKSLILDTSRHNHLRNRVESRNNFKRSITTISTFTSSKSCIKIGDFREIKAK
+                     NLATSVKSQQKACEKYRLSNPLFLVDEESTLETRHCSYEDLVAKIPNYRDYISVKVFD
+                     RLYELFKLKELDDRPFIDQAMEMMQKHKDFSFTFFNKGQKTAKDREIFVGEFEAKMCM
+                     YVIERISKERCKLNTDEMISEPGDSKLRILEKKAEEEIRYIVEKTKDSIQKGDPTKAL
+                     KLEINADMSKWSAQDVFYKYFWLIVLDPILYPNEKKRMLFFMCNYMQKVLILPDDLLS
+                     NILDQKTPYNNDLILNSTNGLNANFVNIKRNWLQGNFNYISSYVHSCAMMVYKDIFKE
+                     TMKLLDGDCLVNSMVHSDDNQTSLAIMQNKVKDDMVIQFAAHTFESVCLTFGCQANMK
+                     KTYITHTCKEFVSLFNLHGEPLSIYGRFLLPSVGDCAYIGPYEDLASRLSATQQSIKH
+                     GCPPSLAWLAISCSHWITHLTYNMLDEQVNCPTNHLPFTNRKDIPVELNGYINAPLYL
+                     ISLVGLEAGNLWFLIEMLKKLVPIDKQRETIQTQCQWLAQLGNLTESEKFRFKILRYL
+                     TLDTEVSTDSNMGETSDMRSRSLLTPRKFTTPGSLNKLVSYLDFKNSMSNDDYKETLS
+                     YMLQNPELLVTKGENKEQFMTSVLYRYNSKRFKESLSIQNPAQLFIEQVLFSHKPIID
+                     YSSIFDKLSSLVESDIIADLPEIIGRVTFPQAYQMIVRDINHLPLDLEDISIVYKYCI
+                     LNDPLMITAANTSLLCVKGTPQDRNGLSANQMPEFRNMKLIHHSPALVLKAFSKGTTD
+                     LPGAEPTELEKDLHHLNEFLESTGIKEKIGQNMDNPPKHLTGMEITMYKIRELTKLYQ
+                     LCYDYIKSTEHKVKVFILPMKAYTSVDFCTLVQGNTISDDKWFTMHYLKQILSGSAKG
+                     NIVTTSTTEQIIANECFRVLTHFADSFVEEASRLSFITEVVDNFSYKNIPVNSLYNTI
+                     LGSNLRLDFIPLLFRMQALTQADLNKFDALKTNERVSWNNWQTNRSLNSGVIDLTISG
+                     YLRSIRIVGEDKILKIAELTIPNFYPNTVFHAGNKLLNSRHGLKFEFMSEQVLDDKFS
+                     YYITYQKKRAHMYTYQVSTIEHIYRRNQEGLAARGNRYNRMVPVCPVVLSVRDELFRM
+                     SMNNVFSLNMTNFTMSRLYISPDEMATIKKAHMSKMMFFNGPDIKAGIINLTALMRTQ
+                     ELLSLNYDNICKSSIVPFCRILSCEGSEDNGELIFLSDEVMDFTISEEIESMPIFTIK
+                     YQKRGNEKMTYKNAISKLVSHGVEEITTVFDFSKDGFYSKKNLGIINTLCSIINLLET
+                     NEWSSILLNSFHIAMLLEGMDREFHLFSLPSAFFNNVASGNINWTKLLKFIKSLPKIH
+                     NEPWSMMMERFIEKTIYLIEKELNKEANFSDFLDELEFQTGKSMFSFF"
+ORIGIN      
+        1 agtagtgtac tcctatataa agaaattaca aactaaacca aaaacaatat ggaggaccaa
+       61 atgtatgatc aattcctcaa gaggattcaa tcagctaaaa cagccactgt agcaaaggac
+      121 atcagcactg acattttgga agcacgtcat gattattttg gtcgagaact ttgtgcttca
+      181 ataggcatag agtttagaaa caacgttctc ttagatgaga tcatcctgga tgttgcacct
+      241 ggaattaacc tgatgaactt caatatacca aatgttacac ctgataatta catctgggat
+      301 gatgatttcc taattataat ggattacaaa gtctcagtag ggaatgatag tacagaaata
+      361 acatacaaaa aatatacaac cctgattcta ccagttatgg agcaaatagg tataccaact
+      421 gaaatagcaa tcataagggc aaaccctgtg acatatcaga tcagtataat aggtgaaaat
+      481 tttaaagcta aatatccaaa tatacccata cagctagatt tttcaaagtt ttttgagttg
+      541 aggaaattat tactggacaa gtttgcagat gatgaggagt ttctacttat gattgctcat
+      601 ggtgacttta cactgacagc accatggtgt atggatgata ctccagaatt gtatgaccac
+      661 ccaatttata aagaattcat aggatccatg ccccctagat ttgtgaactt attcgatgaa
+      721 gccatttcat tcagtgccta ttctgctgaa cgctggaaca gcctgttgta tactgcaaaa
+      781 gcaaagacag aacaagatta tcaagagttc ctctcagaaa agtcacatgc tatatttaac
+      841 atgaatggtg aatatatgaa acccacgcaa tctgaaattg ataaaggctg ggaattaatg
+      901 agccgaagaa tttctgaaga aagggatatc ataacagata taaataaaca gaagccgtcc
+      961 atacatttta tatgggcaaa aaatgctaat aggaaactaa gtagtgcaac tgcaaagctc
+     1021 atatttttgt caaactcttt acagtctatc attgagcctt caacttggac agattcatta
+     1081 aaagcaattg gcaaaagtat ggatatagat ggcaacgttg gagcatatga gaatctctgt
+     1141 atggaaagga agttgatagc cagatcaaca ggaaaaaaga tagacaataa gaggctagaa
+     1201 gccattaaaa taggaaatgc attagtgctt tgggagcaac aatttatctt ggcaaatgat
+     1261 ctcttcaaag gacaggaaag acaaaaattc tttaagaatt tcttaggtat tgggaaacac
+     1321 aaaaatttca aagacaaaac tacaactgac ctagaactag ataagccaaa gatattagac
+     1381 ttcaacaata ccattgtcct gatggcagca aggtcaatga taaacaaaaa caaaacattc
+     1441 ttggcacaaa ctaatacatt ggaaaatcta catccaataa tgggggtatt ctcagaccaa
+     1501 ataaaggagg cttcagaaga tacatttaac acattaaaaa agattaataa aacatgtttt
+     1561 tggcaatgca taacagacat ctcaatgtta atgagaaata ttctttcagt atcacaatat
+     1621 aacaggcata atactttcag agtagctatg tgtgcaaatg actctatgta tgccctcgtg
+     1681 ttcccttctt cagacatcaa gacaaaaaga gcaacagttg ttttctcagt agtctgtatt
+     1741 catcaagaaa agcaatctat tatggatgca ggtgccttat ttacaacttt agaattaaaa
+     1801 acaaaaaact ttatatctat tagcaaggct attaggctag ataaagaaag atgccagaga
+     1861 atagtgtcat ccccaggctt attccttcta agtgctctat tattgtataa taataaccca
+     1921 aacatatctc ttgtagatgt tttaaatttt gcattttata caagtttatc tataactaaa
+     1981 agtatgttat ctttaactga accatctaga tatatgataa tgaactcttt agccatctcc
+     2041 agtcatgtaa aagattatat atctgaaaag ttctcaccct atactaagac actttttagc
+     2101 gtctatatgg taaatttaat caagagaggt tgtagctctg ccaatgaaca atccagcaaa
+     2161 atacagttga ggaatattta tctttcagat tatgaaataa cacagaaagg tgtaaacgat
+     2221 gagaggaact tggaatctat atggttcccc ggtagagtaa acctcaaaga atatatcaat
+     2281 cagatttact taccttttta ttttaacgca aaaggccttc atgaaaagca tcatgttatg
+     2341 atagatctag ccaagacagt tcttgaaata gaaatgactc agaggatgga tgacttgggc
+     2401 atatggtcta agcatggaaa gaaacaacat gttaatctac caatattgat tcattcccta
+     2461 gctaaatcat taattttaga cacttctaga cataatcatt tgagaaacag agtggagagc
+     2521 cgcaacaatt tcaagagaag tataacaacc attagtacat ttaccagctc aaaatcatgc
+     2581 attaagattg gagatttcag ggagatcaag gcaaaaaacc tagccacatc agtaaaatct
+     2641 caacagaaag cttgtgagaa gtaccgctta tcgaatcctt tatttttagt agatgaggaa
+     2701 tctacattag aaaccagaca ttgcagctat gaagatttag ttgcaaagat cccgaattat
+     2761 agagattaca tttctgttaa agtatttgat agattatatg agttattcaa attaaaagaa
+     2821 ttagatgata ggccatttat agatcaggct atggagatga tgcaaaagca caaggacttt
+     2881 tcatttacat tctttaataa aggacaaaag acagcaaagg acagagaaat atttgtaggt
+     2941 gagtttgaag caaaaatgtg tatgtatgtt atagagagaa tctctaaaga aagatgtaag
+     3001 ttaaatacag atgaaatgat tagtgaacca ggagattcaa aattgaggat cttggagaaa
+     3061 aaagcagagg aagagataag atacatcgtg gagaagacga aggatagtat tcagaaaggt
+     3121 gatcctacaa aagcattgaa actagagatt aatgctgata tgtcgaaatg gagtgcgcaa
+     3181 gatgttttct ataagtattt ttggcttata gttttggatc caatacttta cccgaatgag
+     3241 aaaaagagga tgttattttt catgtgtaat tatatgcaga aagtgctgat cttaccagat
+     3301 gatttgctat ccaacatatt agatcaaaaa actccataca acaatgattt aattctaaac
+     3361 tcaactaatg gtttaaatgc caactttgta aacataaaaa ggaattggtt acaagggaat
+     3421 tttaattaca tctctagcta tgtacatagt tgtgcaatga tggtttacaa agatattttc
+     3481 aaagagacta tgaagttgct ggacggagat tgtctggtaa attctatggt tcattcggac
+     3541 gacaatcaga catcccttgc cattatgcaa aataaagtca aagatgacat ggttatacaa
+     3601 tttgctgcac atacatttga atctgtctgt ctcacttttg gatgccaggc aaatatgaaa
+     3661 aaaacatata taacccatac atgcaaagag tttgtgtcac tttttaactt acatggtgag
+     3721 ccattgtcta tatatgggag attcttacta cctagtgtag gagattgtgc atatataggg
+     3781 ccatatgaag atctggcaag taggctatca gccacacaac aaagcataaa gcatggatgc
+     3841 ccacctagct tagcatggct tgcaataagc tgcagccatt ggataactca tttaacatat
+     3901 aacatgctag atgagcaagt gaattgccca acaaatcatt taccatttac aaatagaaag
+     3961 gatataccag ttgagctaaa tggctatatc aatgcgccat tataccttat atcattagta
+     4021 ggccttgaag ctggcaacct atggtttctt atagagatgt tgaagaaatt ggtaccaatt
+     4081 gataagcaaa gagaaacaat acagactcaa tgccagtggc tagctcaatt aggtaatcta
+     4141 acagaatcag aaaaatttag attcaaaatt ctaagatatc tgacacttga cacagaagta
+     4201 agtacagact cgaacatggg ggagaccagt gacatgagaa gtaggtcctt gttgacacca
+     4261 agaaagttca ccactccagg atcattaaat aaattagttt catatctaga cttcaaaaat
+     4321 tctatgtcta atgatgatta taaagaaaca ttgagttata tgttacaaaa tccagagcta
+     4381 ttagttacaa aaggtgagaa taaagaacaa tttatgacat cagtattgta tcgttacaat
+     4441 tccaagcgat ttaaagaaag tctatctatc caaaatccag ctcaattatt tatagagcaa
+     4501 gtacttttct cccataaacc aatcattgac tatagcagta tctttgataa gttgagttct
+     4561 ttagtggaat ctgacataat tgctgatttg ccggaaatca tcggtagggt cacatttcca
+     4621 caagcatacc agatgatagt tagggacatc aatcatctac ccttagatct ggaggacata
+     4681 agtatagtgt ataaatactg tatattaaat gacccactga tgataactgc agcaaacact
+     4741 tctctactgt gtgtcaaagg gacaccacaa gataggaatg gattgagtgc taaccagatg
+     4801 ccggaattca gaaatatgaa attaatacat cattctcctg cattggtatt aaaagccttc
+     4861 agtaaaggga caactgatct acccggtgct gagccaacag agcttgagaa agacttacac
+     4921 cacttgaatg agtttttaga aagcactggt atcaaagaaa aaatagggca aaatatggat
+     4981 aacccaccca agcatttaac tgggatggaa attacaatgt acaagatcag agaattaaca
+     5041 aagttgtatc aattgtgcta tgattatata aaatctactg agcacaaggt taaagtcttt
+     5101 atattgccaa tgaaagcata tacatctgtg gacttttgca cattagttca gggtaatact
+     5161 atttctgatg ataaatggtt cacgatgcat tatttgaaac aaattctaag tggatcagca
+     5221 aagggcaata tagtaactac aagtacaact gagcaaatta tagcaaatga atgttttagg
+     5281 gtattaacac actttgcaga ttcatttgtg gaggaggcaa gtcgtttgag ttttatcaca
+     5341 gaggtagtag ataatttttc atataagaat ataccagtta attcattata caatacaatt
+     5401 ttaggaagca atttgagatt ggattttatc ccattacttt ttagaatgca agcactaaca
+     5461 caggcagatt tgaacaaatt cgatgctcta aagacaaatg aaagagtgtc ctggaataat
+     5521 tggcagacta atagatctct taattcaggt gtcatagatt taacaatctc aggttacctg
+     5581 aggtctataa gaattgttgg tgaagataaa atcttaaaga ttgcagagtt aacaataccg
+     5641 aatttttacc caaatacagt tttccatgcg gggaataaac tattgaattc tagacatggt
+     5701 ttgaaattcg aatttatgtc agagcaagtt ctagatgata aatttagtta ttatatcaca
+     5761 taccaaaaaa aacgtgccca tatgtataca tatcaagtat cgacaataga acatatatat
+     5821 agaagaaacc aggaaggcct tgctgctaga ggaaatagat acaaccgaat ggtcccagtg
+     5881 tgcccagttg tactgtcagt tcgagatgaa ttgttccgaa tgagtatgaa caatgttttt
+     5941 agtttaaata tgaccaattt tactatgtcc aggttatata tctcaccaga tgaaatggca
+     6001 actataaaga aagctcatat gtcaaaaatg atgttcttta atgggccaga cataaaggca
+     6061 ggtataataa atttaacagc tctaatgagg acacaagagc ttctatcatt aaattatgat
+     6121 aatatttgta aatccagtat agttccattt tgtagaatac tttcatgtga agggagtgaa
+     6181 gataatgggg aattaatatt tctatcagat gaagtgatgg attttacaat atctgaagaa
+     6241 atagaatcta tgccaatatt cactattaaa tatcaaaaga ggggaaatga gaaaatgaca
+     6301 tataaaaatg caatatctaa gttagtctca catggtgttg aagaaatcac aacagtcttt
+     6361 gacttttcta aagatgggtt ttattcgaag aaaaaccttg gaataataaa taccctatgc
+     6421 tcaataataa atctactgga aacgaatgag tggtcgtcga ttcttttaaa ttcatttcat
+     6481 attgctatgt tgttagaggg gatggacagg gaattccacc tcttttccct accatctgca
+     6541 tttttcaata atgtagcctc tgggaacata aactggacaa aacttttaaa attcatcaaa
+     6601 tccctcccaa aaatccacaa tgagccttgg tcaatgatga tggagaggtt tatagaaaag
+     6661 acaatatatt taatagaaaa ggagttgaat aaggaggcca attttagcga tttcctagat
+     6721 gagctagagt tccagacagg aaaatcaatg tttagttttt tctagattta gaacgttctc
+     6781 atatcaaccc ctaattggac atcttcaaaa gcctatatgg cacaaaaaaa cagcgaattt
+     6841 atcaatttct ttatatagga gcacactact
+//
+LOCUS       NC_043619               4463 bp    RNA     linear   VRL 22-AUG-2019
+DEFINITION  Cache Valley virus strain 6V633 segment M, complete sequence.
+ACCESSION   NC_043619
+VERSION     NC_043619.1
+DBLINK      BioProject: PRJNA485481
+KEYWORDS    RefSeq.
+SOURCE      Cache Valley virus
+  ORGANISM  Cache Valley virus
+            Viruses; Riboviria; Orthornavirae; Negarnaviricota;
+            Polyploviricotina; Ellioviricetes; Bunyavirales; Peribunyaviridae;
+            Orthobunyavirus; Orthobunyavirus cacheense.
+REFERENCE   1  (bases 1 to 4463)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (22-AUG-2019) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to KX100134.
+            GenBank Accession Numbers KX100133-KX100135 represent sequences
+            from the 3 segments of Cache Valley virus strain 6V633.
+            
+            ##Assembly-Data-START##
+            Assembly Method       :: GS De Novo Assembler v. 2.6
+            Sequencing Technology :: 454; Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..4463
+                     /organism="Cache Valley virus"
+                     /mol_type="genomic RNA"
+                     /strain="6V633"
+                     /host="Culiseta inornata"
+                     /db_xref="taxon:80935"
+                     /segment="M"
+                     /country="USA"
+                     /collection_date="1956"
+     gene            49..4353
+                     /locus_tag="FLB09_sMgp1"
+                     /db_xref="GeneID:41324356"
+     CDS             49..4353
+                     /locus_tag="FLB09_sMgp1"
+                     /codon_start=1
+                     /product="glycoprotein precursor"
+                     /protein_id="YP_009666951.1"
+                     /db_xref="GeneID:41324356"
+                     /translation="MLFLLILAFLGFSTSNPIATRCFHGGQLIAESKSATSISEFCLK
+                     DDVSMLKSEVVYIKNDTGLFGHNKVFRSWTIKDWKLCNPIPTAGGTINVIEVNKDLSL
+                     MTKTYICSRDCTITIDKEEAQIIFQTDKLNHFEVSGTTLSSGWFKSKASVTLDRTCEH
+                     VKVTCGKKSLQFHACFKHHMSCVRFFHNTILPGNMITSMCQNIELIIILGLTLAIFIL
+                     MVMLTKTYICYLLMPIFMPIAYLYGWAYNKSCKKCNCCGLAYHPFTNCGSHCVCGLKF
+                     EASDRMRIHRESGLCQGYKSLRIARLLCKSKGSSLVISGLLSMLILSFVTPIEGTITS
+                     YPESRKYTLEEITDVVEGLVSEQNIKEYIVFYTSLFGSLILLLAFIMSITLSKITSIL
+                     AKRNVIYCEECSMYHSKRGIKYNGDFTNKCGFCTCNEQEDTEGLVIHKVSKRCTYKYQ
+                     LKWAKVLMITLVLLLIAQNTILIVAAETDCWTKKSLDIDCIGPMLDIGSCTNKNTRSY
+                     DAEAQKLVSQSKISQLDADQASLLGNSIDSAIKAIRAQKTYPTMHLLETIFLMKNCDY
+                     YTSFNHNSGYSQAKWRLIAKTGHFDICSRHSTHHFCRCINDGTKCQNGDWDFAGEMNE
+                     TYNSKNDFYSHDLNLFYTIFENAFPGTTESLFYQLIQKKNTTGASKVLGKLITKYGNN
+                     NMFVGIWKFGQYLLTLPYINNTELSQNRRLTILATQELLSRSHSGRQESMSNAIQGSI
+                     TKECHNAKGVGCISPRFGIPIGNLTACGDSPNYKIYKTPEKLYKSNNKGEVWCSNDVH
+                     CLNDFEPADEEVVNKIKKLTCFLTDVSVEVDIFSVAASTCKMADKGVCTVNGAKWNII
+                     KCDSGLYYFTDHREGQDTGNDFGEYCISHSCNTERFPINPDTLKDCTWEFHSRKSKYI
+                     STISLESLEEFRRAMAEKLSHTLTIYNFKPTANLPHIRPTYKFITANGVENSDGIESA
+                     YILSSIPALGGISVGYNVQTKDNFPLLDIIVFIKSAVIRTTYNHIYDTGPTIGINTQH
+                     DEHCTGPCPAVVPHKENWMTFSQERTSRWGCEEFGCLAINTGCVFGSCQDIIHPETKV
+                     YRKAVEEEVVLTVCINFPGNNYCTEINAIEPKITDEIELQFKTVDTKTLPNLLAVQNH
+                     KLYSGQINDLGSFSQGCGNVQKTNHSILGMGTVKFDYVCHGASRKDVIVRRCYNNNFD
+                     SCKLLKEETSLIFADNHETLEVAHTKHLIGELQFKIMLGDIRYKSFAESPELEIDAKC
+                     VGCPSCFESYSCNFQIVTNIDTVCSVEGPCTLFHNRIIISANKQSYGLKMSCQTKPNQ
+                     NEEFIICNRKYSVLFTTIDKNDKIEVNTGDQTSYIYEKDSRCKTWLCRVRDEGISVLF
+                     EPLKAFFGSYFSIIFYVVVGIIVLFLIIYIFLPMFFKLKDVLKRNEYLYLQELKHK"
+ORIGIN      
+        1 agtagtgtac taccgataca atccacatct agataaaggt tcttcaagat gctattcctg
+       61 ctcatactag cctttttagg gttctcaaca agcaacccta ttgcaactag gtgtttccat
+      121 gggggccaat taatagcaga gtcaaagtct gctacatcta tatcagaatt ctgcctcaag
+      181 gatgatgtct caatgttaaa atctgaagtg gtatacataa agaatgatac tggattattt
+      241 ggtcataata aagtttttag aagctggaca ataaaagatt ggaaactctg caaccctata
+      301 cctactgcag gaggaacaat aaatgtaatt gaggttaaca aagatcttag tctaatgaca
+      361 aagacataca tatgtagtag agattgcact ataaccatag ataaagagga agctcagatt
+      421 atcttccaaa cagataagct aaatcatttt gaagtgtctg gcactacatt aagttcagga
+      481 tggtttaaaa gcaaggcgtc tgtcaccctg gatagaacct gtgagcatgt taaggttact
+      541 tgtggaaaga aatctctgca attccatgca tgttttaaac accacatgtc atgtgttagg
+      601 ttcttccaca ataccatatt acctggcaat atgataacct caatgtgcca gaatatagaa
+      661 ttaataatta tcttagggct aacattagcc atattcatat taatggttat gcttacaaaa
+      721 acttatatat gttatttact gatgccaatt ttcatgccga tagcttatct ttatggttgg
+      781 gcctacaata agagctgcaa aaagtgcaac tgttgtggtt tagcatacca tccatttact
+      841 aattgtgggt cacattgtgt ttgtggcttg aaatttgagg catcagatag gatgagaatc
+      901 catagagaat ctggcttgtg tcaagggtac aagagtttac gaattgccag acttttgtgt
+      961 aaatctaaag ggtcatcttt agttatatct ggattattgt ccatgttaat cttaagcttc
+     1021 gtaacgccta tagaggggac tataactagc tacccagaga gcagaaaata tacactggaa
+     1081 gagataacag atgttgttga aggactggta tctgagcaga atataaagga gtatattgtt
+     1141 ttctatacct cattgtttgg aagtttaata ctattattag catttataat gtctataact
+     1201 ttaagcaaaa taacaagcat attagcaaaa agaaatgtta tttattgcga agaatgctca
+     1261 atgtatcatt caaaaagagg cataaagtac aatggtgact tcacaaacaa atgcggcttt
+     1321 tgcacatgca atgaacaaga ggatacagaa ggattagtaa tacataaagt tagtaagaga
+     1381 tgcacatata aataccagct aaagtgggct aaagtgctga tgattacact agtcttgctt
+     1441 ctaatagcgc aaaacactat tctaattgtt gcagctgaaa cagattgctg gacaaaaaaa
+     1501 agcctagata tagactgtat aggaccaatg ctagatatag gctcttgcac aaataagaat
+     1561 accagaagct atgatgcaga agcacagaaa ttggtgagcc agtctaaaat aagtcaacta
+     1621 gatgcagacc aagcatcgtt gttaggcaac tctatagata gtgctattaa ggcaatcaga
+     1681 gcccagaaaa cttaccctac aatgcacttg ttggaaacaa tattcttaat gaaaaattgc
+     1741 gattattaca cgagtttcaa ccataacagt ggctattcac aagccaaatg gcgattgatt
+     1801 gcaaaaacag gacactttga catatgctcc agacatagca cccaccattt ctgccgatgt
+     1861 ataaatgatg gaaccaaatg tcagaatggt gattgggatt tcgctggtga aatgaatgaa
+     1921 acttacaata gcaaaaatga tttttattca catgatctga atttgtttta cacaattttt
+     1981 gaaaatgcat tcccaggaac aactgaatcc ttattttatc aattgatcca aaagaaaaat
+     2041 actacagggg cctccaaagt cttggggaag ttaataacta aatatggtaa taataacatg
+     2101 ttcgttggaa tctggaaatt tggacagtac ttacttacat taccatatat aaataatact
+     2161 gaattgagcc agaataggag actaacaatc ctggcaacac aagaactatt aagtaggtcg
+     2221 cactctggca ggcaggagtc tatgtccaat gcaattcagg gcagtattac aaaagaatgc
+     2281 cataatgcaa aaggtgttgg gtgcataagt cctcggtttg gtattccaat tggtaacctt
+     2341 acagcatgtg gtgactcacc taattataaa atatataaga ctccagaaaa attgtataaa
+     2401 tcaaataata aaggggaagt ttggtgttca aatgatgttc actgcctgaa tgattttgag
+     2461 cctgcagatg aagaagttgt caataaaatt aagaaactca cttgcttctt aacagacgtc
+     2521 tcagttgaag tagacatctt ttcagtggct gcatccacat gtaagatggc agacaaaggc
+     2581 gtctgtacag taaatggtgc taaatggaat ataatcaagt gtgatagtgg attatactat
+     2641 tttacagacc atagagaagg ccaggacaca ggcaatgact ttggtgagta ttgtatatct
+     2701 cacagttgca atactgagcg attccctatc aacccagaca cattaaaaga ttgtacttgg
+     2761 gagttccatt ccagaaagtc taaatatatt tcaaccatca gtttagaatc attggaagaa
+     2821 ttcaggaggg caatggcaga aaagttatca cacaccctaa caatttacaa ttttaaacca
+     2881 acagctaacc ttcctcatat taggccaacc tacaaattca ttacagccaa tggtgtcgaa
+     2941 aactctgacg gtattgaatc agcatacatc ttgtctagca tccctgcatt aggtggaatt
+     3001 agtgttggtt ataatgttca aaccaaagac aacttcccat tgttggatat aattgtattt
+     3061 attaaaagcg cagtcatcag gacaacatac aatcatattt atgataccgg gcctactata
+     3121 ggtataaaca cacaacatga tgagcactgt acagggccgt gcccagctgt ggtgccacat
+     3181 aaagagaact ggatgacatt ttctcaggaa agaacaagta gatggggatg tgaagaattt
+     3241 ggttgcttgg ccatcaacac agggtgtgtt tttggttctt gccaagatat aatacatcca
+     3301 gaaactaaag tataccgcaa agcagtagaa gaggaagttg tcttaacggt gtgcatcaat
+     3361 tttccaggca ataattactg cactgaaata aatgccattg agcctaagat aacagatgag
+     3421 atagagctcc agttcaaaac agtcgataca aaaaccttac ccaaccttct tgcagtgcag
+     3481 aatcacaagc tttacagtgg ccagataaac gatttgggct ctttttcaca aggttgtgga
+     3541 aatgtccaaa aaacaaatca ctcaatccta ggcatgggta cagtcaaatt tgattatgtc
+     3601 tgtcacggcg ctagtaggaa agatgtgata gtcaggaggt gctacaacaa taattttgat
+     3661 tcatgcaaat tactgaaaga agaaacatca ttaatatttg cagataatca tgagactcta
+     3721 gaggtagcac acacaaagca tctgataggt gaattacagt ttaagataat gttaggagat
+     3781 ataagataca aatcatttgc tgaatcacct gagttggaaa ttgatgcaaa atgtgtcggg
+     3841 tgtccatcat gttttgaaag ctactcctgc aactttcaaa tagtgacaaa tatagacact
+     3901 gtgtgctcag tcgaagggcc atgcacacta tttcataatc gaattattat atcagctaac
+     3961 aaacagtcat atgggcttaa aatgagttgc caaacaaagc ctaaccaaaa tgaagagttc
+     4021 attatctgta acaggaaata cagtgtctta ttcacaacaa ttgataaaaa tgacaaaata
+     4081 gaagtgaaca caggggacca gacttcatat atttatgaaa aggacagcag atgtaagact
+     4141 tggttgtgca gggttagaga tgaggggatc agtgtcctat ttgaaccatt gaaagcattc
+     4201 tttgggagct attttagcat aatattttat gttgttgttg gaattattgt ccttttcttg
+     4261 attatataca tatttttgcc aatgttcttc aaactaaaag atgttttgaa aagaaatgaa
+     4321 tatttgtatc ttcaggaact gaaacataaa tgaggtggag ccaaaccagc tcaattcaat
+     4381 tatggtatta tttattctga aattatagta aatataacgc cttagggcaa actagctgtt
+     4441 tttgatatcg gtagcacact act
+//
+LOCUS       NC_043620                950 bp    RNA     linear   VRL 22-AUG-2019
+DEFINITION  Cache Valley virus strain 6V633 segment S, complete sequence.
+ACCESSION   NC_043620
+VERSION     NC_043620.1
+DBLINK      BioProject: PRJNA485481
+KEYWORDS    RefSeq.
+SOURCE      Cache Valley virus
+  ORGANISM  Cache Valley virus
+            Viruses; Riboviria; Orthornavirae; Negarnaviricota;
+            Polyploviricotina; Ellioviricetes; Bunyavirales; Peribunyaviridae;
+            Orthobunyavirus; Orthobunyavirus cacheense.
+REFERENCE   1  (bases 1 to 950)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (22-AUG-2019) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to KX100133.
+            GenBank Accession Numbers KX100133-KX100135 represent sequences
+            from the 3 segments of Cache Valley virus strain 6V633.
+            
+            ##Assembly-Data-START##
+            Assembly Method       :: GS De Novo Assembler v. 2.6
+            Sequencing Technology :: 454; Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..950
+                     /organism="Cache Valley virus"
+                     /mol_type="genomic RNA"
+                     /strain="6V633"
+                     /host="Culiseta inornata"
+                     /db_xref="taxon:80935"
+                     /segment="S"
+                     /country="USA"
+                     /collection_date="1956"
+     gene            75..776
+                     /locus_tag="FLB09_sSgp1"
+                     /db_xref="GeneID:41324357"
+     CDS             75..776
+                     /locus_tag="FLB09_sSgp1"
+                     /codon_start=1
+                     /product="nucleoprotein"
+                     /protein_id="YP_009666952.1"
+                     /db_xref="GeneID:41324357"
+                     /translation="MIELEFNDVAANTSSTFDPEIAYVNFKRIHTTGLSYDHIRIFYI
+                     KGREIKTSLTKRSEWEVTLNLGGWKVTVFNTNFPGNRNSPVPDDGLTLHRLSGYLARY
+                     LLEKILKVSDPEKVIIKSKIINPLAEKNGITWSDGEEVYLSFFPGSEMFLGTFKFYPL
+                     AIGIYKVQRKEMEPKYLEKTMRQRYMGLEASTWTISKVNEVQAALTVVSGLGWKKTNV
+                     SAAAREFLAKFGISM"
+     gene            94..399
+                     /locus_tag="FLB09_sSgp2"
+                     /db_xref="GeneID:41324358"
+     CDS             94..399
+                     /locus_tag="FLB09_sSgp2"
+                     /codon_start=1
+                     /product="nonstructural protein NSs"
+                     /protein_id="YP_009666953.1"
+                     /db_xref="GeneID:41324358"
+                     /translation="MMSLLTPAVLLTQRLHTLTLSVSTPLGLVMTTFESSTLKDARLK
+                     LVSQKEVNGRLRLTLGAGRLLYLIQIFLATGTVQFQTMVLPSTDSVDTLPGTYLRKY"
+ORIGIN      
+        1 agtagtgtac tccacactaa taactttcaa actttggtaa acttgagaat tgcaaggtgt
+       61 aacttggcat tctaatgatt gagttggaat ttaatgatgt cgctgctaac accagcagta
+      121 cttttgaccc agagattgca tacgttaact ttaagcgtat ccacaccact gggcttagtt
+      181 atgaccacat tcgaatcttc tacattaaag gacgcgagat taaaactagt ctcacaaaaa
+      241 gaagtgaatg ggaggttacg cttaaccttg ggggctggaa ggttactgta tttaatacaa
+      301 attttcctgg caacaggaac agtccagttc cagacgatgg tcttaccctc cacagactca
+      361 gtggatacct tgccaggtac ctacttgaga aaatactgaa ggtgagtgac ccagagaaag
+      421 tcattataaa atcaaaaata ataaatccac tagctgaaaa gaatggaata acctggtctg
+      481 atggcgaaga ggtttacctc tctttctttc ctggctcaga gatgttctta ggaacattta
+      541 aattttaccc tctggcaata ggaatttaca aagttcagag gaaagagatg gaacctaagt
+      601 acttggagaa gacaatgcgc cagaggtata tggggctaga agcgtcaacc tggacaatca
+      661 gtaaagtcaa tgaagttcag gctgccctta cagtggtttc tgggctaggc tggaagaaga
+      721 ctaacgtcag tgctgcagcc agagaattct tggcaaaatt tggtatcagc atgtaattga
+      781 gtcctaaatt tcaatctgga aaaattaaac attttattca atttggctaa aagagtcttc
+      841 ggactcacaa caaacagcta tttgggtggg tggttgggga cagaaatact acggtatata
+      901 tattccaaat tcattattgc tgttttaagt tttaggtgga gcacactact
+//

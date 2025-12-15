@@ -1,0 +1,39 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 8
+Rules claiming more threads will be scaled down.
+Job stats:
+job          count    min threads    max threads
+---------  -------  -------------  -------------
+align            1              1              1
+all              1              1              1
+ancestral        1              1              1
+export           1              1              1
+refine           1              1              1
+traits           1              1              1
+translate        1              1              1
+tree             1              8              8
+total            8              1              8
+
+Select jobs to execute...
+
+[Thu Dec 11 11:23:53 2025]
+Job 4: 
+        Aligning sequences to config/reference.fasta
+          - filling gaps with N
+        
+Reason: Missing output files: results/aligned.fasta
+
+[Thu Dec 11 11:23:54 2025]
+Error in rule align:
+    jobid: 4
+    output: results/aligned.fasta
+    shell:
+        
+        augur align             --sequences results/filtered.fasta             --reference-sequence config/reference.fasta             --output results/aligned.fasta             --fill-gaps
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: .snakemake/log/2025-12-11T112353.578586.snakemake.log

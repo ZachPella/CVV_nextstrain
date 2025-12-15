@@ -1,9 +1,9 @@
 {
-  "title": "Heartland virus L segment phylogenetic analysis",
+  "title": "Cache Valley virus L segment phylogenetic analysis",
   "maintainers": [
     {"name": "ZP", "url": "none"}
   ],
-  "build_url": "https://github.com/ZP/heartland-nextstrain",
+  "build_url": "https://github.com/ZP/cache-valley-nextstrain",
   "colorings": [
     {
       "key": "gt",
@@ -22,7 +22,7 @@
     },
     {
       "key": "state",
-      "title": "State",
+      "title": "State/Province",
       "type": "categorical"
     }
   ],
@@ -37,7 +37,8 @@
   ],
   "display_defaults": {
     "map_triplicate": true,
-    "color_by": "state"
+    "color_by": "state",
+    "geo_resolution": "state"
   },
   "filters": [
     "country",

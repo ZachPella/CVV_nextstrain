@@ -1,0 +1,43 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 4
+Rules claiming more threads will be scaled down.
+Job stats:
+job          count    min threads    max threads
+---------  -------  -------------  -------------
+all              1              1              1
+export           1              1              1
+translate        1              1              1
+total            3              1              1
+
+Select jobs to execute...
+
+[Thu Sep 25 12:15:41 2025]
+Job 9: Translating amino acid sequences
+Reason: Missing output files: results/aa_muts.json
+
+[Thu Sep 25 12:15:42 2025]
+Finished job 9.
+1 of 3 steps (33%) done
+Select jobs to execute...
+
+[Thu Sep 25 12:15:42 2025]
+Job 1: Exporting data files for for auspice
+Reason: Missing output files: auspice/heartland.json; Input files updated by another job: results/aa_muts.json
+
+[Thu Sep 25 12:15:43 2025]
+Finished job 1.
+2 of 3 steps (67%) done
+Select jobs to execute...
+
+[Thu Sep 25 12:15:43 2025]
+localrule all:
+    input: auspice/heartland.json
+    jobid: 0
+    reason: Input files updated by another job: auspice/heartland.json
+    resources: tmpdir=/tmp
+
+[Thu Sep 25 12:15:43 2025]
+Finished job 0.
+3 of 3 steps (100%) done
+Complete log: .snakemake/log/2025-09-25T121541.220071.snakemake.log

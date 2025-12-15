@@ -1,0 +1,115 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 4
+Rules claiming more threads will be scaled down.
+Job stats:
+job                count    min threads    max threads
+---------------  -------  -------------  -------------
+align                  1              1              1
+all                    1              1              1
+ancestral              1              1              1
+export                 1              1              1
+filter                 1              1              1
+index_sequences        1              1              1
+refine                 1              1              1
+traits                 1              1              1
+translate              1              1              1
+tree                   1              4              4
+total                 10              1              4
+
+Select jobs to execute...
+
+[Thu Sep 25 12:07:56 2025]
+Job 6: 
+        Creating an index of sequence composition for filtering.
+        
+Reason: Updated input files: data/sequences.fasta
+
+[Thu Sep 25 12:07:57 2025]
+Finished job 6.
+1 of 10 steps (10%) done
+Select jobs to execute...
+
+[Thu Sep 25 12:07:57 2025]
+Job 5: 
+        Filtering to
+          - 20 sequence(s) per state year
+          - from 2009 onwards
+        
+Reason: Input files updated by another job: results/sequence_index.tsv
+
+[Thu Sep 25 12:07:57 2025]
+Finished job 5.
+2 of 10 steps (20%) done
+Select jobs to execute...
+
+[Thu Sep 25 12:07:57 2025]
+Job 4: 
+        Aligning sequences to config/reference.fasta
+          - filling gaps with N
+        
+Reason: Missing output files: results/aligned.fasta; Input files updated by another job: results/filtered.fasta
+
+[Thu Sep 25 12:08:01 2025]
+Finished job 4.
+3 of 10 steps (30%) done
+Select jobs to execute...
+
+[Thu Sep 25 12:08:01 2025]
+Job 3: Building tree
+Reason: Input files updated by another job: results/aligned.fasta
+
+[Thu Sep 25 12:08:01 2025]
+Finished job 3.
+4 of 10 steps (40%) done
+Select jobs to execute...
+
+[Thu Sep 25 12:08:01 2025]
+Job 2: 
+        Refining tree
+          - estimate timetree
+          - use exp coalescent timescale
+          - estimate marginal node dates
+          - filter tips more than 4 IQDs from clock expectation
+        
+Reason: Input files updated by another job: results/tree_raw.nwk, results/aligned.fasta
+
+[Thu Sep 25 12:08:15 2025]
+Finished job 2.
+5 of 10 steps (50%) done
+Select jobs to execute...
+
+[Thu Sep 25 12:08:15 2025]
+Job 7: Inferring ancestral traits for state country
+Reason: Input files updated by another job: results/tree.nwk
+
+
+[Thu Sep 25 12:08:15 2025]
+Job 8: Reconstructing ancestral sequences and mutations
+Reason: Input files updated by another job: results/tree.nwk, results/aligned.fasta
+
+[Thu Sep 25 12:08:16 2025]
+Finished job 7.
+6 of 10 steps (60%) done
+[Thu Sep 25 12:08:17 2025]
+Finished job 8.
+7 of 10 steps (70%) done
+Select jobs to execute...
+
+[Thu Sep 25 12:08:17 2025]
+Job 9: Translating amino acid sequences
+Reason: Missing output files: results/aa_muts.json; Input files updated by another job: results/nt_muts.json, results/tree.nwk
+
+[Thu Sep 25 12:08:17 2025]
+Error in rule translate:
+    jobid: 9
+    output: results/aa_muts.json
+    shell:
+        
+        augur translate             --tree results/tree.nwk             --ancestral-sequences results/nt_muts.json             --reference-sequence config/heartland_segments.gb \ # Passes the GBFF file
+            --output-node-data results/aa_muts.json         
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: .snakemake/log/2025-09-25T120755.842847.snakemake.log

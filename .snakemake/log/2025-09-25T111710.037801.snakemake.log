@@ -1,0 +1,35 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 8
+Rules claiming more threads will be scaled down.
+Job stats:
+job          count    min threads    max threads
+---------  -------  -------------  -------------
+all              1              1              1
+ancestral        1              1              1
+export           1              1              1
+refine           1              1              1
+traits           1              1              1
+translate        1              1              1
+tree             1              8              8
+total            7              1              8
+
+Select jobs to execute...
+
+[Thu Sep 25 11:17:10 2025]
+Job 3: Building tree
+Reason: Missing output files: results/tree_raw.nwk; Updated input files: results/aligned.fasta
+
+[Thu Sep 25 11:17:11 2025]
+Error in rule tree:
+    jobid: 3
+    output: results/tree_raw.nwk
+    shell:
+        
+        augur tree --alignment results/aligned.fasta --output results/tree_raw.nwk --nthreads 8  --tree-builder-args 
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: .snakemake/log/2025-09-25T111710.037801.snakemake.log

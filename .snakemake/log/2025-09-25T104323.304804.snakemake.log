@@ -1,0 +1,30 @@
+Building DAG of jobs...
+Using shell: /home/fauverlab/zachpella/.nextstrain/runtimes/conda/env/bin/bash
+Provided cores: 2
+Rules claiming more threads will be scaled down.
+Job stats:
+job                count
+---------------  -------
+align                  1
+all                    1
+ancestral              1
+export                 1
+filter                 1
+index_sequences        1
+refine                 1
+traits                 1
+translate              1
+tree                   1
+total                 10
+
+Select jobs to execute...
+
+[Thu Sep 25 10:43:23 2025]
+Job 6: 
+        Creating an index of sequence composition for filtering.
+        
+Reason: Missing output files: results/sequence_index.tsv; Code has changed since last execution
+
+
+        augur index             --sequences data/sequences.fasta             --output results/sequence_index.tsv
+        

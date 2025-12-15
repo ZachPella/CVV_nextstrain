@@ -1,0 +1,65 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 8
+Rules claiming more threads will be scaled down.
+Job stats:
+job                count    min threads    max threads
+---------------  -------  -------------  -------------
+align                  1              1              1
+all                    1              1              1
+ancestral              1              1              1
+export                 1              1              1
+filter                 1              1              1
+index_sequences        1              1              1
+refine                 1              1              1
+traits                 1              1              1
+translate              1              1              1
+tree                   1              8              8
+total                 10              1              8
+
+Select jobs to execute...
+
+[Thu Dec 11 11:21:17 2025]
+Job 6: 
+        Creating an index of sequence composition for filtering.
+        
+Reason: Missing output files: results/sequence_index.tsv
+
+[Thu Dec 11 11:21:18 2025]
+Finished job 6.
+1 of 10 steps (10%) done
+Select jobs to execute...
+
+[Thu Dec 11 11:21:18 2025]
+Job 5: 
+        Filtering to
+          - 10 sequence(s) per country year
+          - from 1950 onwards
+        
+Reason: Missing output files: results/filtered.fasta; Input files updated by another job: results/sequence_index.tsv
+
+[Thu Dec 11 11:21:19 2025]
+Finished job 5.
+2 of 10 steps (20%) done
+Select jobs to execute...
+
+[Thu Dec 11 11:21:19 2025]
+Job 4: 
+        Aligning sequences to config/reference.fasta
+          - filling gaps with N
+        
+Reason: Missing output files: results/aligned.fasta; Input files updated by another job: results/filtered.fasta
+
+[Thu Dec 11 11:21:20 2025]
+Error in rule align:
+    jobid: 4
+    output: results/aligned.fasta
+    shell:
+        
+        augur align             --sequences results/filtered.fasta             --reference-sequence config/reference.fasta             --output results/aligned.fasta             --fill-gaps
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: .snakemake/log/2025-12-11T112115.657667.snakemake.log

@@ -1,0 +1,74 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 8
+Rules claiming more threads will be scaled down.
+Job stats:
+job                count    min threads    max threads
+---------------  -------  -------------  -------------
+align                  1              1              1
+all                    1              1              1
+ancestral              1              1              1
+export                 1              1              1
+filter                 1              1              1
+index_sequences        1              1              1
+refine                 1              1              1
+traits                 1              1              1
+translate              1              1              1
+tree                   1              8              8
+total                 10              1              8
+
+Select jobs to execute...
+
+[Thu Sep 25 11:15:04 2025]
+Job 6: 
+        Creating an index of sequence composition for filtering.
+        
+Reason: Missing output files: results/sequence_index.tsv; Code has changed since last execution
+
+[Thu Sep 25 11:15:06 2025]
+Finished job 6.
+1 of 10 steps (10%) done
+Select jobs to execute...
+
+[Thu Sep 25 11:15:06 2025]
+Job 5: 
+        Filtering to
+          - 20 sequence(s) per state year month
+          - from 2009 onwards
+        
+Reason: Input files updated by another job: results/sequence_index.tsv
+
+[Thu Sep 25 11:15:07 2025]
+Finished job 5.
+2 of 10 steps (20%) done
+Select jobs to execute...
+
+[Thu Sep 25 11:15:07 2025]
+Job 4: 
+        Aligning sequences to config/reference.fasta
+          - filling gaps with N
+        
+Reason: Input files updated by another job: results/filtered.fasta
+
+[Thu Sep 25 11:15:10 2025]
+Finished job 4.
+3 of 10 steps (30%) done
+Select jobs to execute...
+
+[Thu Sep 25 11:15:10 2025]
+Job 3: Building tree
+Reason: Missing output files: results/tree_raw.nwk; Input files updated by another job: results/aligned.fasta
+
+[Thu Sep 25 11:15:11 2025]
+Error in rule tree:
+    jobid: 3
+    output: results/tree_raw.nwk
+    shell:
+        
+        augur tree --alignment results/aligned.fasta --output results/tree_raw.nwk --nthreads 8  --tree-builder-args '-nt 8'
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: .snakemake/log/2025-09-25T111504.441404.snakemake.log

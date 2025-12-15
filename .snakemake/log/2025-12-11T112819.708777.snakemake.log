@@ -1,0 +1,31 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 8
+Rules claiming more threads will be scaled down.
+Job stats:
+job          count    min threads    max threads
+---------  -------  -------------  -------------
+all              1              1              1
+export           1              1              1
+translate        1              1              1
+total            3              1              1
+
+Select jobs to execute...
+
+[Thu Dec 11 11:28:19 2025]
+Job 9: Translating amino acid sequences
+Reason: Missing output files: results/aa_muts.json
+
+[Thu Dec 11 11:28:20 2025]
+Error in rule translate:
+    jobid: 9
+    output: results/aa_muts.json
+    shell:
+        
+        augur translate --tree results/tree.nwk --ancestral-sequences results/nt_muts.json --reference-sequence config/cache_valley_segments.gb --output-node-data results/aa_muts.json
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: .snakemake/log/2025-12-11T112819.708777.snakemake.log

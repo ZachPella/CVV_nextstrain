@@ -1,0 +1,47 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 4
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	1	align
+	1	all
+	1	ancestral
+	1	export
+	1	filter
+	1	refine
+	1	traits
+	1	translate
+	1	tree
+	9
+
+[Wed Sep 24 16:38:41 2025]
+Job 8: 
+        Filtering to
+          - 20 sequence(s) per state year month
+          - from 2009 onwards
+        
+
+[Wed Sep 24 16:38:41 2025]
+Finished job 8.
+1 of 9 steps (11%) done
+
+[Wed Sep 24 16:38:41 2025]
+Job 7: 
+        Aligning sequences to config/reference.txt
+          - filling gaps with N
+        
+
+[Wed Sep 24 16:38:42 2025]
+Error in rule align:
+    jobid: 7
+    output: results/aligned.fasta
+    shell:
+        
+        augur align             --sequences results/filtered.fasta             --reference-sequence config/reference.txt             --output results/aligned.fasta             --fill-gaps
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: /home/fauverlab/nextstrain/Heartland_build_ZP_September2025/.snakemake/log/2025-09-24T163841.080791.snakemake.log
