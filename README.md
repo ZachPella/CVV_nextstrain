@@ -1,8 +1,10 @@
 # Cache Valley Virus (CVV) Nextstrain Build
 
 This repository contains a Nextstrain phylogenetic analysis pipeline for Cache Valley virus (CVV) L segment sequences. The pipeline processes genomic sequences through filtering, alignment, tree building, and visualization steps to generate an interactive phylogenetic tree visualization.
+
 <img width="1299" height="910" alt="Screenshot 2025-12-15 105508" src="https://github.com/user-attachments/assets/4e29443c-4df1-4886-a28e-33d1d6ac20b1" />
 <img width="1298" height="833" alt="Screenshot 2025-12-15 105520" src="https://github.com/user-attachments/assets/cdd71178-99aa-4220-a9ff-ed9b49f21ab6" />
+
 ## Overview
 
 Cache Valley virus is an orthobunyavirus in the family Peribunyaviridae. This build focuses on the L (large) segment, which encodes the viral RNA-dependent RNA polymerase. The analysis includes sequences from multiple geographic locations spanning from 1956 to 2025.
